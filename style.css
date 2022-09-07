@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 8%;
+   
+}
+
+nav .menu-img{
+    width: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    font-weight: bolder;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 400px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: yellow:
+    transition: 0.4s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150px;
+
+}
+
+button {
+    background: #efefef;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+/* MAKING THE LOGIN BUTTON HOVER INTO YELLOW*/
+button:hover{
+    background: orange;
+}
+
+.heading1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* THIS GRANDPARENT */
+#cards{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+/* DESIGNING CARDS PARENT */
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px 3px grey;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2em;
+
+}
+/* THE IMAGE IN CARDS */
+.images{
+    width: 80%;
+}
+
+.title{
+    font-size: 1.3rem;
+    
+}
+
+.category,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+   
+}
