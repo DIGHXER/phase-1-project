@@ -58,6 +58,7 @@ function bigImg(x) {
     cards.innerHTML="<h1>Messages</h1>"
   })
 
+  // adding click event to the services page
   let services = document.getElementById("services")
   services.addEventListener("click",()=>{
     let serviceTitle = document.createElement("h1")
