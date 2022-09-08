@@ -35,17 +35,16 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: yellow:
+    color: orangered;
     transition: 0.4s ease-in-out;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 150px;
-
 }
 
 button {
     background: #efefef;
-    height: 30px;
-    width: 80px;
+    height: 20px;
+    width: 100px;
     border-radius: 30px;
     border: 0;
     outline: 0;

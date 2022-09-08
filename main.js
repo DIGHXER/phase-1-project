@@ -62,7 +62,7 @@ function bigImg(x) {
   let services = document.getElementById("services")
   services.addEventListener("click",()=>{
     let serviceTitle = document.createElement("h1")
-    serviceTitle.textContent="Services"
+    serviceTitle.textContent="Services Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     cards.innerHTML=""
     cards.appendChild(serviceTitle)
   })
